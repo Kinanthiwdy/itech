@@ -1,0 +1,391 @@
+/* Apply Poppins font to the navbar */
+.navbar {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Change text color to white and set a larger font size for ITech */
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    /* Set the font size as needed */
+}
+
+/* Change text color to white */
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin-right: 20px;
+    /* Add 20px right margin between navbar items */
+}
+
+/* Style for the profile button */
+.profile-button {
+    display: flex;
+    align-items: center;
+}
+
+.profile-button img {
+    width: 30px;
+    /* Set the width of the profile image */
+    height: 30px;
+    /* Set the height of the profile image */
+    border-radius: 50%;
+    /* Make the image circular */
+    margin-right: 10px;
+    /* Add some margin between the image and text */
+}
+
+.itechStyle {
+    color: #7598CF;
+}
+
+.textHome {
+    text-align: left;
+    align-self: center;
+}
+
+.textTentang {
+    text-align: left;
+    align-self: center;
+}
+
+#home {
+    background-image: url('http://localhost:8000/latar.png');
+    /* Tambahkan path ke gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    /* Sesuaikan padding untuk memusatkan konten secara vertikal */
+}
+
+.styleLayanan {
+    padding: 20px;
+}
+
+.stylecolLayanan {
+    border-right: 5px solid #7598CF;
+}
+
+#tentangKami {
+    background-color: #7598CF;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    /* Sesuaikan padding untuk memusatkan konten secara vertikal */
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+
+p  {
+
+    font-size: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-image: linear-gradient(#94c6e8, #ffffff);
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+
+.footer-col {
+    width: 30%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #000000;
+    text-transform: poppins;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+
+.img{
+display: flex;
+justify-content: flex-end;
+width: 90px;
+height: 90px;
+}
+
+
+
+.image-container img {
+        width: 30px; /* Lebar container sesuai kebutuhan Anda */
+        float: right; /* Menetapkan elemen ke kiri */
+        margin-right: 20px; /* Jarak antara gambar dan teks */
+        height: 20px;
+        padding-left: 10px;
+    }
+
+    .center-text {
+        text-align: center;
+    }
+
+
+
+.footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 13px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 300;
+    color: #000000;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: blue;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-size: center center;
+    -webkit-background-size: cover;
+    height: 100vh;
+    background-position: center;
+    -webkit-background-size: cover;
+    filter: grayscale(1);
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: blue;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.crop-img {
+    object-fit: cover;
+    margin: 10px 25px 25px 25px;
+
+}
+
+.crop-img1 {
+    object-fit: cover;
+}
+
+.font-position {
+    color: black
+}
+
+.font-position p {
+    text-align: justify;
+}
+
+.carousel-caption {
+    padding-top: 100px;
+    padding-bottom: 250px;
+    font-family: poppins;
+}
+
+.carousel-caption h3 {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 2px 1px rgb(4, 42, 80);
+    font-family: teko;
+}
+
+.carousel-caption h3 span {
+    color: rgb(251, 171, 23);
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.carousel-caption a {
+    border-radius: 50px;
+    font-size: small;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+    transition: 2s;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.kontak {
+    background-color: #7598CF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+}
+
+.buku {
+    background-color: #A3BFEB;
+    margin-top: 2rem;
+    width: 50%;
+    height: 100px;
+    margin-left: 19rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+}
+
+.buku img {
+    height: 60px;
+    margin-left: 3rem;
+}
+
+.test img {
+    height: 80px;
+    margin-left: 7rem;
+}
+
+
+.anjay {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(71, 0, 224);
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: #000000;
+}
+
+.buku a {
+    margin-left: 1rem;
+
+}
+
+.test a {
+    margin-right: 21px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+    .card img {
+        height: 11em;
+    }
+}
+
