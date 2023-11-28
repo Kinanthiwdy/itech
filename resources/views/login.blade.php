@@ -30,9 +30,6 @@
                 <a href="#">Forgot Password?</a>
                 <button type="submit" class="btn"><a style="text-align: center; color: white; font-size: 1.2rem;"
                         href="/dashboard">LOGIN</a></button>
-                <button type="submit" class="btn google-button">
-                    <img src="{{ asset('google.png') }}" alt="Google Icon"> Login with Google
-                </button>
                 <a class="text" style="text-align: center" href="/register">Belum Punya Akun? Daftar</a>
             </form>
         </div>
