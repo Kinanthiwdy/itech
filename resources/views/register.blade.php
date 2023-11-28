@@ -60,7 +60,7 @@
                 </div>
 
                 <button type="submit" class="btn">Daftar</button>
-                <a class="text" style="text-align: center" href="/login">Sudah Punya Akun? Login Disini</a>
+                <a class="text" style="text-align: center" href="/">Sudah Punya Akun? Login Disini</a>
             </form>
         </div>
     </div>
