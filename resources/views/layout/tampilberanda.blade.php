@@ -65,21 +65,23 @@
     <section id="kontak">
         {{-- Footer --}}
         <footer>
-            </div>
-            <div class="footer">
-                <div class="row">
-                    <div class="img">
-                        <img src="{{ asset('logo biru.png') }}" alt="Deskripsi Gambar" width="auto" height="auto">
-                    </div>
-                    <div class="footer-col">
-                        <h4><b>ITech</b></h4>
-                        <p>Platform belajar IT interaktif yang
-                            mudah</p>
+            <div class="container" style="margin-top: 20px">
+                <div class="row justify-content-between">
+                    <div class="col-4">
+                        <img src="logo biru 2.png" alt="Logo">
                     </div>
 
+                    <div class="col">
+                        <h4 style="text-align: right"><b>ITech</b></h4>
+                        <p style="text-align: right">Platform belajar IT interaktif yang
+                            mudah</p>
+                    </div>
                 </div>
-                <div class=" center-text">
-                    <p><b> &copy; Kelompok 3 Pendidikan Teknik Informatika Universitas Negeri Malang, 2023.</b></p>
+
+                <div class="container">
+                    <div class="row">
+                        <p style="font-size: 10px; text-align: center"><b> &copy; Kelompok 3 Pendidikan Teknik Informatika Universitas Negeri Malang, 2023.</b></p>
+                    </div>
                 </div>
         </footer>
         {{-- Footer End --}}

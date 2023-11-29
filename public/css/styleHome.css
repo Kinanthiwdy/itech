@@ -109,7 +109,7 @@ ul {
     list-style: none;
 }
 
-.footer {
+/* .footer {
     background-color: #fff;
     padding: 20px 0;
     position: relative;
@@ -131,7 +131,7 @@ ul {
     font-weight: 500;
     position: relative;
     margin-bottom: 0.5em;
-}
+} */
 
 .img{
 display: flex;
