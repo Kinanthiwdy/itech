@@ -19,8 +19,7 @@
         style="background-color: #7598CF; position: sticky; top: 0; z-index: 1000;  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); ">
         <div class="container">
             <a class="navbar-brand" href="/dashboard#">
-                <img src="logo ITech.png" alt="Logo ITech" width="32" height="32"
-                    class="d-inline-block align-text-top">
+                <img src="logo ITech header.png" alt="Logo ITech" class="d-inline-block align-text-top imghead">
                 <span style="font-weight: bold;">ITech</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -68,7 +67,7 @@
             <div class="container" style="margin-top: 20px">
                 <div class="row justify-content-between">
                     <div class="col-4">
-                        <img src="logo biru 2.png" alt="Logo">
+                        <img src="logo biru 2.png" alt="Logo" class="imgfoot">
                     </div>
 
                     <div class="col">
@@ -80,7 +79,8 @@
 
                 <div class="container">
                     <div class="row">
-                        <p style="font-size: 10px; text-align: center"><b> &copy; Kelompok 3 Pendidikan Teknik Informatika Universitas Negeri Malang, 2023.</b></p>
+                        <p style="font-size: 10px; text-align: center"><b> &copy; Kelompok 3 Pendidikan Teknik
+                                Informatika Universitas Negeri Malang, 2023.</b></p>
                     </div>
                 </div>
         </footer>

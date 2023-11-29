@@ -66,6 +66,7 @@
     border-right: 5px solid #7598CF;
 }
 
+
 #tentangKami {
     background-color: #7598CF;
     background-size: cover;
@@ -132,6 +133,28 @@ ul {
     position: relative;
     margin-bottom: 0.5em;
 } */
+
+@media (max-width: 600px){
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .imghead {
+        width: 50px;
+        height: 50px;
+    }
+    .imgfoot {
+        width: 50px;
+        height: 50px;
+    }
+    .imgicon{
+        width: 50px;
+        height: 50px;
+    }
+    .teksicon{
+        font-size: 2vw;
+    }
+}
 
 .img{
 display: flex;

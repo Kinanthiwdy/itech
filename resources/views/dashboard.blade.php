@@ -7,8 +7,8 @@
         <div class="container">
             <div class="row justify-content-around">
                 <div class="col-6 textHome" style="font-weight: bold;">
-                    <h3 style=" font-family: 'Poppins', sans-serif;">Selamat Datang, Joko Widodo!</h3>
-                    <h1 style=" font-family: 'Poppins', sans-serif; text-align: left">Siap Hadapi Dunia IT? Bareng <span
+                    <h3 style=" font-family: 'Poppins', sans-serif; font-size: 3vw">Selamat Datang, Joko Widodo!</h3>
+                    <h1 style=" font-family: 'Poppins', sans-serif; text-align: left; font-size: 4vw">Siap Hadapi Dunia IT? Bareng <span
                             class="itechStyle" style=" font-family: 'Poppins', sans-serif;">ITech</span>, Pasti Mudah!</h1>
                 </div>
                 <div class="col-3">
@@ -37,11 +37,11 @@
             </div>
 
             <div class="row justify-content-center styleLayanan">
-                <div class="row justify-content-center styleLayanan">
-                    <div class="col-3 stylecolLayanan">
+                
+                    <div class="col-md-4 stylecolLayanan imgicon" style="padding: 10px">
                         <img src="bukuIcon.png" alt="Icon Buku" width="50" height="50" style="padding-bottom: 10px">
-                        <h6>Materi Belajar</h6>
-                        <a href="/materibelajar" style="text-decoration: none; color: blue;">Read More <svg
+                        <h6 class="teksicon">Materi Belajar</h6>
+                        <a href="/materibelajar" style="text-decoration: none; color: blue;" class="teksicon">Read More <svg
                                 xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
                                 class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
@@ -50,10 +50,10 @@
                                     d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
                             </svg></a>
                     </div>
-                    <div class="col-3 stylecolLayanan">
+                    <div class="col-md-4 stylecolLayanan imgicon" style="padding: 10px">
                         <img src="dataIcon.png" alt="Icon Buku" width="50" height="50" style="padding-bottom: 10px">
-                        <h6>Statistika Hasil Belajar</h6>
-                        <a href="/statistika" style="text-decoration: none; color: blue">Read More <svg
+                        <h6 class="teksicon">Statistika Hasil Belajar</h6>
+                        <a href="/statistika" style="text-decoration: none; color: blue" class="teksicon">Read More <svg
                                 xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
                                 class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
@@ -62,10 +62,10 @@
                                     d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
                             </svg></a>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-4 imgicon" style="padding: 10px">
                         <img src="chatIcon.png" alt="Icon Buku" width="50" height="50" style="padding-bottom: 10px">
-                        <h6>Chat Admin</h6>
-                        <a href="https://linktr.ee/AdminITech" style="text-decoration: none; color: blue">Read More <svg
+                        <h6 class="teksicon">Chat Admin</h6>
+                        <a href="https://linktr.ee/AdminITech" style="text-decoration: none; color: blue" class="teksicon">Read More <svg
                                 xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
                                 class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
@@ -74,7 +74,7 @@
                                     d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
                             </svg></a>
                     </div>
-                </div>
+                
             </div>
 
         </div>
