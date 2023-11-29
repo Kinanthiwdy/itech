@@ -90,7 +90,7 @@
 
         <div class="container">
             <div class="row justify-content-around">
-                <div class="col-md-6 textTentang">
+                <div class="col-md-6 textTentang" style="text-align: justify">
                     ITech adalah sebuah platform web yang menyediakan pembelajaran dalam bidang Teknologi Informasi (TI)
                     dengan
                     menggunakan metode beragam. Platform ini tidak hanya menawarkan materi-materi pembelajaran berkualitas,

@@ -23,7 +23,12 @@
                     class="d-inline-block align-text-top">
                 <span style="font-weight: bold;">ITech</span>
             </a>
-            <div class="navbar-collapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" style="border-color: #fff; color: #ffffff8d;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/dashboard#home">Home</a>
@@ -64,7 +69,7 @@
             <div class="footer">
                 <div class="row">
                     <div class="img">
-                        <img src="{{ asset('logo biru.png') }}" alt="Deskripsi Gambar">
+                        <img src="{{ asset('logo biru.png') }}" alt="Deskripsi Gambar" width="auto" height="auto">
                     </div>
                     <div class="footer-col">
                         <h4><b>ITech</b></h4>
