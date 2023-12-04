@@ -29,7 +29,7 @@
                             <div class="card">
                                 <img src="{{ asset('aok.jpg') }}" class="card-img-top" alt="Deskripsi Gambar">
                                 <div class="card-body">
-                                    <h5 class="card-title">Materi Arsitektur dan Organisasi Komputer</h5>
+                                    <h5 class="card-title">Materi Arsitektur dan <br>Organisasi Komputer</h5>
                                     <p class="card-text">Klik di bawah ini untuk Membaca!</p>
                                     <a class="anjay" href="#">Read More</a>
                                 </div>
