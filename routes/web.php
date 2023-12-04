@@ -33,5 +33,6 @@ Route::get('/materibelajar', [MahasiswaController::class, 'materi'])->name('mate
 Route::get('/contact', [MahasiswaController::class, 'kontak'])->name('kontak');
 Route::get('/quiz', [MahasiswaController::class, 'quiz'])->name('quiz');
 Route::get('/biodata', [MahasiswaController::class, 'biodata'])->name('biodata');
+Route::get('/dashadmin', [MahasiswaController::class, 'dashadmin'])->name('dashadmin');
 
 

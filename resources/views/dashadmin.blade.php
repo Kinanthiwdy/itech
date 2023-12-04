@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row justify-content-around">
                 <div class="col-6 textHome" style="font-weight: bold;">
-                    <h3 style=" font-family: 'Poppins', sans-serif; font-size: 3vw">Selamat Datang, Joko Widodo!</h3>
+                    <h3 style=" font-family: 'Poppins', sans-serif; font-size: 3vw">Selamat Datang, Admin!</h3>
                     <h1 style=" font-family: 'Poppins', sans-serif; text-align: left; font-size: 4vw">Siap Hadapi Dunia IT?
                         Bareng <span class="itechStyle" style=" font-family: 'Poppins', sans-serif;">ITech</span>, Pasti
                         Mudah!</h1>
@@ -42,15 +42,15 @@
 
                     <div class="col-md-4 col-sm-6 stylecolLayanan imgicon">
                         <img src="bukuIcon.png" alt="Icon Buku" width="50" height="50" style="padding-bottom: 10px">
-                        <h6 class="teksicon">Materi Belajar</h6>
-                        <a href="/materibelajar" style="text-decoration: none; color: blue;"
+                        <h6 class="teksicon">Upload File</h6>
+                        <a href="/uploadfile" style="text-decoration: none; color: blue;"
                             class="teksicon">Read More</a>
                     </div>
 
                     <div class="col-md-4 col-sm-6 stylecolLayanan imgicon">
                         <img src="dataIcon.png" alt="Icon Buku" width="50" height="50" style="padding-bottom: 10px">
-                        <h6 class="teksicon">Statistika Hasil Belajar</h6>
-                        <a href="/statistika" style="text-decoration: none; color: blue" class="teksicon">Read More</a>
+                        <h6 class="teksicon">Buat Quiz</h6>
+                        <a href="/buatquiz" style="text-decoration: none; color: blue" class="teksicon">Read More</a>
                     </div>
 
                     <div class="col-md-4 col-sm-6 imgicon">

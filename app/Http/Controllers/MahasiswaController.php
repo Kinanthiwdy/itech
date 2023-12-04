@@ -28,4 +28,7 @@ class MahasiswaController extends Controller
     public function biodata(){
         return view('biodata');
     }
+    public function dashadmin(){
+        return view('dashadmin');
+    }
 }
