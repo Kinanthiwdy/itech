@@ -3,6 +3,7 @@
 use App\Http\Controllers\MahasiswaController;
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,6 +27,10 @@ Route::get('/bebas', function () {
     return view('bebas');
 });
 
+Route::get('/formadmin', function () {
+    return view('formadmin');
+});
+
 
 Route::get('/dashboard', [MahasiswaController::class, 'beranda'])->name('dashboard');
 Route::get('/register', [MahasiswaController::class, 'register'])->name('register');
@@ -34,5 +39,8 @@ Route::get('/contact', [MahasiswaController::class, 'kontak'])->name('kontak');
 Route::get('/quiz', [MahasiswaController::class, 'quiz'])->name('quiz');
 Route::get('/biodata', [MahasiswaController::class, 'biodata'])->name('biodata');
 Route::get('/dashadmin', [MahasiswaController::class, 'dashadmin'])->name('dashadmin');
+Route::get('/fileupload', [ MahasiswaController::class, 'getFileUploadForm' ])->name('get.fileupload');
+Route::post('/fileupload', [ MahasiswaController::class, 'store' ])->name('store.file');
+
 
 
