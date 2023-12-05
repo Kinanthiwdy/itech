@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/login', function () {
+Route::get('/', function () {
     return view('login');
 });
 
@@ -33,5 +33,12 @@ Route::get('/materibelajar', [MahasiswaController::class, 'materi'])->name('mate
 Route::get('/contact', [MahasiswaController::class, 'kontak'])->name('kontak');
 Route::get('/quiz', [MahasiswaController::class, 'quiz'])->name('quiz');
 Route::get('/biodata', [MahasiswaController::class, 'biodata'])->name('biodata');
+Route::get('/dashadmin', [MahasiswaController::class, 'dashadmin'])->name('dashadmin');
+Route::get('/loginmin', [MahasiswaController::class, 'showloginmin'])->name('loginmin');
+
+Route::post('/loginmin', [MahasiswaController::class, 'loginmin']);
+Route::get('/dashadmin', function () {
+    return 'Welcome to the dashboard';
+})->middleware('auth');
 
 

@@ -58,13 +58,14 @@
     /* Sesuaikan padding untuk memusatkan konten secara vertikal */
 }
 
-.styleLayanan {
+/* .styleLayanan {
     padding: 20px;
-}
+} */
 
 .stylecolLayanan {
     border-right: 5px solid #7598CF;
 }
+
 
 #tentangKami {
     background-color: #7598CF;
@@ -109,16 +110,14 @@ ul {
     list-style: none;
 }
 
-.footer {
-    background-image: linear-gradient(#94c6e8, #ffffff);
+/* .footer {
+    background-color: #fff;
     padding: 20px 0;
     position: relative;
     bottom: 0;
     width: 100%;
 
 }
-
-
 
 .footer-col {
     width: 30%;
@@ -133,6 +132,28 @@ ul {
     font-weight: 500;
     position: relative;
     margin-bottom: 0.5em;
+} */
+
+@media (max-width: 600px){
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .imghead {
+        width: 50px;
+        height: 50px;
+    }
+    .imgfoot {
+        width: 50px;
+        height: 50px;
+    }
+    .imgicon{
+        width: 50px;
+        height: 50px;
+    }
+    .teksicon{
+        font-size: 2vw;
+    }
 }
 
 .img{

@@ -19,11 +19,15 @@
         style="background-color: #7598CF; position: sticky; top: 0; z-index: 1000;  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); ">
         <div class="container">
             <a class="navbar-brand" href="/dashboard#">
-                <img src="logo ITech.png" alt="Logo ITech" width="32" height="32"
-                    class="d-inline-block align-text-top">
+                <img src="logo ITech header.png" alt="Logo ITech" class="d-inline-block align-text-top imghead">
                 <span style="font-weight: bold;">ITech</span>
             </a>
-            <div class="navbar-collapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" style="border-color: #fff; color: #ffffff8d;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/dashboard#home">Home</a>
@@ -34,39 +38,22 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/contact">Contact</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/biodata">Biodata</a></li>
+                            <li><a class="dropdown-item" href="/">Logout</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </div>
-            <!-- Profile button -->
-            <div class="profile-button">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                            class="bi bi-person-circle" viewBox="0 0 16 16">
-                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
-                            <path fill-rule="evenodd"
-                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
-                        </svg>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/biodata">Lengkapi Biodata <span><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="12" height="12"
-                                        fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
-                                        <path fill-rule="evenodd"
-                                            d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
-                                    </svg></span></a></li>
-                        <li><a class="dropdown-item" href="/login">Logout <span><svg xmlns="http://www.w3.org/2000/svg"
-                                        width="12" height="12" fill="currentColor"
-                                        class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
-                                        <path fill-rule="evenodd"
-                                            d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
-                                    </svg></span></a></li>
-                    </ul>
-                </li>
             </div>
         </div>
     </nav>
@@ -77,21 +64,24 @@
     <section id="kontak">
         {{-- Footer --}}
         <footer>
-            </div>
-            <div class="footer">
-                <div class="row">
-                    <div class="img">
-                        <img src="{{ asset('logo biru.png') }}" alt="Deskripsi Gambar">
-                    </div>
-                    <div class="footer-col">
-                        <h4><b>ITech</b></h4>
-                        <p>Platform belajar IT interaktif yang
-                            mudah</p>
+            <div class="container" style="margin-top: 20px">
+                <div class="row justify-content-between">
+                    <div class="col-4">
+                        <img src="logo biru 2.png" alt="Logo" class="imgfoot">
                     </div>
 
+                    <div class="col">
+                        <h4 style="text-align: right"><b>ITech</b></h4>
+                        <p style="text-align: right">Platform belajar IT interaktif yang
+                            mudah</p>
+                    </div>
                 </div>
-                <div class=" center-text">
-                    <p><b> &copy; Kelompok 3 Pendidikan Teknik Informatika Universitas Negeri Malang, 2023.</b></p>
+
+                <div class="container">
+                    <div class="row">
+                        <p style="font-size: 10px; text-align: center"><b> &copy; Kelompok 3 Pendidikan Teknik
+                                Informatika Universitas Negeri Malang, 2023.</b></p>
+                    </div>
                 </div>
         </footer>
         {{-- Footer End --}}
@@ -101,6 +91,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
     </script>
 </body>
 

@@ -26,7 +26,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="cards-wrapper">
-                            <div class="card">
+                            <div class="card  ">
                                 <img src="{{ asset('aok.jpg') }}" class="card-img-top" alt="Deskripsi Gambar">
                                 <div class="card-body">
                                     <h5 class="card-title">Materi Arsitektur dan <br>Organisasi Komputer</h5>
@@ -37,7 +37,7 @@
                             <div class="card d-none d-md-block">
                                 <img src="{{ asset('c2.jpg') }}" class="card-img-top" alt="Deskripsi Gambar">
                                 <div class="card-body">
-                                    <h5 class="card-title">Materi Dasar Pemrograman C++</h5>
+                                    <h5 class="card-title">Materi Dasar <br>Pemrograman C++</h5>
                                     <p class="card-text">Klik di bawah ini untuk Membaca!</p>
                                     <a class="anjay" href="#">Read More</a>
                                 </div>
@@ -45,7 +45,7 @@
                             <div class="card d-none d-md-block">
                                 <img src="{{ asset('pbo.jpg') }}" class="card-img-top" alt="Deskripsi Gambar">
                                 <div class="card-body">
-                                    <h5 class="card-title">Materi Pemrograman Berbasis Obyek</h5>
+                                    <h5 class="card-title">Materi Pemrograman <br>Berbasis Obyek</h5>
                                     <p class="card-text">Klik di bawah ini untuk Membaca!</p>
                                     <a class="anjay" href="#">Read More</a>
                                 </div>
