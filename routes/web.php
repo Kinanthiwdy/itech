@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\MahasiswaController;
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,14 +14,18 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/login', [LoginController::class, 'login'])->name('login');
 
-Route::get('/', function () {
-    return view('login');
-});
+Route::post('/login', [LoginController::class, 'authenticate']);
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
+Route::get('/', [LoginController::class, 'login'])->name('login');
+// Route::post('actionlogin', [LoginController::class, 'authenticate'])->name('actionlogin');
+
+Route::get('actionlogout', [LoginController::class, 'actionlogout'])->name('actionlogout')->middleware('auth');
+
+Route::get('register', [RegisterController::class, 'register'])->name('register');
+Route::post('register/action', [RegisterController::class, 'actionregister'])->name('actionregister');
+
 
 Route::get('/bebas', function () {
     return view('bebas');
@@ -28,7 +33,6 @@ Route::get('/bebas', function () {
 
 
 Route::get('/dashboard', [MahasiswaController::class, 'beranda'])->name('dashboard');
-Route::get('/register', [MahasiswaController::class, 'register'])->name('register');
 Route::get('/materibelajar', [MahasiswaController::class, 'materi'])->name('materi');
 Route::get('/contact', [MahasiswaController::class, 'kontak'])->name('kontak');
 Route::get('/quiz', [MahasiswaController::class, 'quiz'])->name('quiz');

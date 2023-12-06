@@ -22,7 +22,7 @@
                 <span>Password</span>
             </div>
             <div class="inputBox">
-                <input type="submit" value="Login" href>
+                <input type="submit" value="Login" >
             </div>
         </form>
     </div>

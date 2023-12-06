@@ -7,7 +7,13 @@
             <img src="{{ asset('login.png') }}" alt="Deskripsi Gambar">
         </div>
         <div class="login-content">
-            <form action="index.html">
+            @if($errors->has('email'))
+            <div role="alert">
+                {{ $errors->first('email') }}
+            </div>
+        @endif
+            <form action="/login" method="post">
+                @csrf
                 <img src="{{ asset('logo.png') }}" alt="Deskripsi Gambar">
                 <h3 class="title">Yuk, Daftar atau Masuk</h3>
                 <h3 class="title">GRATIS!</h3>
@@ -28,11 +34,18 @@
                     </div>
                 </div>
                 <a href="#">Forgot Password?</a>
-                <button type="submit" class="btn"><a style="text-align: center; color: white; font-size: 1.2rem;"
-                        href="/dashboard">LOGIN</a></button>
-                <a class="text" style="text-align: center" href="/register">Belum Punya Akun? Daftar</a>
+                <button type="submit" class="btn"style="text-align: center; color: white; font-size: 1.2rem;">LOGIN</button>
+                
             </form>
+            <a class="text" style="text-align: center" >Belum Punya Akun? Daftar</a>
+            @if($errors->any())
+            <div role="alert">
+                <ul>
+                    @foreach($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
         </div>
+        @endif
     </div>
     <script src="{{ asset('main.js') }}"></script>
 

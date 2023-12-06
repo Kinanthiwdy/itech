@@ -37,7 +37,7 @@ class MahasiswaController extends Controller
         return view('loginmin');
     }
 
-    public function loginmin(Request $request)
+      public function loginmin(Request $request)
     {
         $credentials = $request->only('username', 'password');
 

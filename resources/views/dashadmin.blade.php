@@ -43,7 +43,7 @@
                     <div class="col-md-4 col-sm-6 stylecolLayanan imgicon">
                         <img src="bukuIcon.png" alt="Icon Buku" width="50" height="50" style="padding-bottom: 10px">
                         <h6 class="teksicon">Upload File</h6>
-                        <a href="/uploadfile" style="text-decoration: none; color: blue;"
+                        <a href="/fileupload" style="text-decoration: none; color: blue;"
                             class="teksicon">Read More</a>
                     </div>
 
@@ -55,7 +55,7 @@
 
                     <div class="col-md-4 col-sm-6 imgicon">
                         <img src="chatIcon.png" alt="Icon Buku" width="50" height="50" style="padding-bottom: 10px">
-                        <h6 class="teksicon">Chat Admin</h6>
+                        <h6 class="teksicon">Lihat User</h6>
                         <a href="https://linktr.ee/AdminITech" style="text-decoration: none; color: blue"
                         class="teksicon">Read More</a>
                     </div>

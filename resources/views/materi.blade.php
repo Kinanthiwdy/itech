@@ -4,14 +4,17 @@
 @section('content')
 
     <body>
-        <div class="buku">
-            <img class="book" src="{{ asset('book.png') }}" alt="Gambar 1">
-            <a style="font-weight: bold;" href="#belajar">Buku Belajar IT</a>
-            <div class="test">
-                <img class="test" src="{{ asset('test.png') }}" alt="Gambar 2">
-                <a style="font-weight: bold;" href="#soal">Test Kemampuan</a>
+        <div class="row justify-content-center" style="background-color: #7598CF; border-radius: 30px; width: 80%; height: auto; margin-top: 50px; padding: 10px 0 10px 0">
+            <div class="col-4">
+                <img src="{{ asset('book.png') }}" alt="Gambar 1">
+                <a style="font-weight: bold;" href="#belajar" style="text-align: center">Buku</a>
+            </div>
+            <div class="col-4">
+                <img src="{{ asset('test.png') }}" alt="Gambar 2">
+                <a style="font-weight: bold;" href="#soal" style="text-align: center">Test Kemampuan</a>
             </div>
         </div>
+
         <section id="belajar">
             <div class="container text-center">
                 <div class="row justify-content-center styleLayanan">
@@ -176,8 +179,5 @@
                 </a>
             </div>
         </section>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-        </script>
     </body>
 @endsection
