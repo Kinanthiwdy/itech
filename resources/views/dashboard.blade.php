@@ -7,7 +7,8 @@
         <div class="container">
             <div class="row justify-content-around">
                 <div class="col-6 textHome" style="font-weight: bold;">
-                    <h3 style=" font-family: 'Poppins', sans-serif; font-size: 3vw">Selamat Datang, Joko Widodo!</h3>
+                    <h3 style=" font-family: 'Poppins', sans-serif; font-size: 3vw">Selamat Datang, J, {{ $user->name }}!</h3>
+      
                     <h1 style=" font-family: 'Poppins', sans-serif; text-align: left; font-size: 4vw">Siap Hadapi Dunia IT?
                         Bareng <span class="itechStyle" style=" font-family: 'Poppins', sans-serif;">ITech</span>, Pasti
                         Mudah!</h1>

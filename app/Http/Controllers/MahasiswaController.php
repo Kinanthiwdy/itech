@@ -13,6 +13,11 @@ class MahasiswaController extends Controller
         return view('dashboard');
     }
 
+    public function profile(){
+        return view('profile');
+    }
+
+
     public function register(){
         return view('register');
     }

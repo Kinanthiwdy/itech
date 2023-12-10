@@ -1,12 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Http\RedirectResponse;
 
+use App\Events\UserLoggedIn;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
-use Illuminate\Support\Facades\DB;
 
 
 class LoginController extends Controller
@@ -14,29 +14,11 @@ class LoginController extends Controller
     public function login()
     {
         if (Auth::check()) {
-            return redirect('dashboard');
-        }else{
+            return redirect('');
+        } else {
             return view('login');
         }
     }
-
-
-    // public function actionlogin(Request $request)
-    // {
-    //     $data = [
-    //         'email' => $request->input('email'),
-    //         'password' => $request->input('password'),
-    //     ];
-
-    //     if (Auth::attempt($data)) {
-    //         return redirect()->intended('home');
-    //     }
-
-    //     else{
-    //         Session::flash('error', 'Email atau Password Salah');
-    //         return redirect('/');
-    //     }
-    // }
 
     public function authenticate(Request $request): RedirectResponse
     {
@@ -44,16 +26,16 @@ class LoginController extends Controller
             'email' => ['required', 'email'],
             'password' => ['required'],
         ]);
- 
+
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
- 
-            return redirect()->intended('dashboard');
+
+            return redirect()->intended('home');
         }
- 
-        return back()->withErrors([
-            'email' => 'The provided credentials do not match our records.',
-        ])->onlyInput('email');
+
+        return redirect()->back()->withInput()->withErrors([
+            'email' => 'Email atau Password salah',
+        ]);
     }
 
     public function actionlogout()

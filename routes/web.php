@@ -39,10 +39,14 @@ Route::get('/quiz', [MahasiswaController::class, 'quiz'])->name('quiz');
 Route::get('/biodata', [MahasiswaController::class, 'biodata'])->name('biodata');
 Route::get('/dashadmin', [MahasiswaController::class, 'dashadmin'])->name('dashadmin');
 Route::get('/loginmin', [MahasiswaController::class, 'showloginmin'])->name('loginmin');
+Route::get('/profile', [MahasiswaController::class, 'profile'])->name('profile');
 
 Route::post('/loginmin', [MahasiswaController::class, 'loginmin']);
 Route::get('/dashadmin', function () {
     return 'Welcome to the dashboard';
 })->middleware('auth');
+
+Route::get('/formadmin/edit', [ProfileController::class, 'edit'])->name('profile.edit');
+Route::post('/formadmin/update', [ProfileController::class, 'update'])->name('profile.update');
 
 
